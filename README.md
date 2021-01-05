@@ -2,11 +2,11 @@
 
 It is a python library to analyze the output from molecular simulations.
 
-## Dependencies
+### Dependencies
 - numpy
 - scipy
 
-## Installation
+### Installation
 To install, simply run
 
 python setup.py install
