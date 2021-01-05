@@ -8,7 +8,9 @@ It is a python library to analyze the output from molecular simulations.
 
 ### Installation
 
+```sh
 python setup.py install
+```
 
 
 
