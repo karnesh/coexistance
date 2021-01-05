@@ -1,6 +1,6 @@
 # coexistence
 
-It is a python library to analyze the output from molecular simulations.
+It is a python library to analyze the output from the molecular simulations.
 
 ### Dependencies
 
