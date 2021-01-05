@@ -7,7 +7,6 @@ It is a python library to analyze the output from molecular simulations.
 - scipy
 
 ### Installation
-To install, simply run
 
 python setup.py install
 
