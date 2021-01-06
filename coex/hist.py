@@ -1,7 +1,7 @@
 """Objects and functions for working with visited states histograms.
 
-Histograms are used to find the change in free energy via histogram
-reweighting.  For example, an energy visited states distribution would
+They are used to find the change in free energy.  
+For example, an energy visited states distribution would
 provide a new free energy given a change in the inverse temperature
 beta (1/kT).
 """
