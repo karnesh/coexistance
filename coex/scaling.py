@@ -84,28 +84,3 @@ def finite_scaling(frac,path,T,T0,H,d):
     M = m_2/m**2
     U = m_4/m_2**2
     return M, U
-
-# Example usage:
-# import matplotlib.pyplot as plt
-# frac = [-7.0]
-# path1 = 'Z:/yiqichen/data/AOa0/q0.8/T450_l'
-# H1 = [30,36,40]
-# kb = 1.38e-23
-# beta = np.linspace(1.0/kb/450.0, 1.0/kb/430.0, 300)
-# T = 1.0/kb/beta
-# T0 = 450
-# d = 3
-# plt.figure('a = 0 by comp')
-# for i in range(len(H1)):
-#     M1 = 0
-#     U1 = 0
-#     for r in ['/r1','/r2','/r3','/r4']:
-#         M, U = finite_scaling(frac, path1 + str(H1[i]) + r, T, T0, H1[i],d)
-#         M1 += M
-#         U1 += U
-#     M1 = M1/4
-#     U1 = U1/4
-#     plt.plot(T,M1,label = 'L = ' + str(H1[i]))
-#     plt.plot(T,U1,label = 'L = ' + str(H1[i]))
-# plt.legend(loc = 'best')
-# plt.show()
