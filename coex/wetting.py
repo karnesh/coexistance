@@ -1,5 +1,5 @@
-"""Find the wetting properties of a direct or expanded ensemble
-grand canonical simulation.
+"""Determine the wetting properties of a direct or expanded ensemble
+Monte Carlo simulation.
 """
 
 import numpy as np
