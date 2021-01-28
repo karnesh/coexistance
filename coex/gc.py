@@ -26,6 +26,7 @@ def activities_to_fractions(activities, one_subensemble=False):
         If the array is multidimensional, each column corresponds to
         a subensemble from an expanded ensemble simulation.
     """
+    
     activities = np.array(activities)
     if ((not one_subensemble and len(activities.shape) == 1)
             or (one_subensemble and len(activities) == 1)):
@@ -51,6 +52,7 @@ def fractions_to_activities(fractions, one_subensemble=False):
         multidimensional, each column corresponds to a subensemble
         from an expanded ensemble simulation.
     """
+    
     fractions = np.array(fractions)
     if ((not one_subensemble and len(fractions.shape) == 1)
             or (one_subensemble and len(fractions) == 1)):
