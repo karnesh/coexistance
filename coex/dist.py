@@ -28,6 +28,7 @@ class TransitionMatrix:
         probabilities: An array with the acceptance probability for
             forward and reverse transitions from each state.
     """
+    
     def __init__(self, attempts, probabilities):
         self.attempts = attempts
         self.probabilities = probabilities
@@ -74,6 +75,7 @@ class OrderParameterMatrix(TransitionMatrix):
         probabilities: An array with the acceptance probability for
             forward and reverse transitions from each state.
     """
+    
     def __init__(self, subensembles, attempts, probabilities):
         self.subensembles = subensembles
         super().__init__(attempts, probabilities)
@@ -94,6 +96,7 @@ class OrderParameterMatrix(TransitionMatrix):
         Returns:
             An OrderParameterDistribution.
         """
+        
         dist = np.zeros(len(self))
         for i, difference in enumerate(np.diff(guess)):
             dist[i+1] = dist[i] + difference
@@ -125,6 +128,7 @@ class GrowthMatrix(TransitionMatrix):
         probabilities: An array with the acceptance probability for
             forward and reverse transitions from each state.
     """
+    
     def __init__(self, index, attempts, probabilities):
         self.subensembles = index['subensembles']
         self.components = index['components']
