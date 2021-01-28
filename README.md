@@ -1,6 +1,12 @@
 # coexistence
 
-It is a python library to analyze the output from the molecular simulations. It takes output from the Gchybrid Monte Carlo simulations as the input. The output is phase coexistance and interfacial properties such as contact angle, interfacial tension.
+It is a python library to analyze the data obtained from running molecular simulations. 
+
+### Input
+It takes output from the Gchybrid Monte Carlo simulations as the input. 
+
+### Output
+The output is phase coexistance and interfacial properties such as contact angle, interfacial tension.
 
 ### Dependencies
 
