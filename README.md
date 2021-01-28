@@ -12,6 +12,8 @@ It is a python library to analyze the output from the molecular simulations.
 ```sh
 python setup.py install
 ```
+### Copyright
 
+Copyright (c) Karnesh Jain
 
 
