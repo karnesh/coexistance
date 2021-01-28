@@ -1,7 +1,6 @@
 """A set of functions for reading density histograms."""
 
 import pathlib
-
 import numpy as np
 
 
