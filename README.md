@@ -3,7 +3,7 @@
 It is a python library to analyze the data obtained from running molecular simulations. 
 
 ### Input
-It takes output from the Gchybrid Monte Carlo simulations as the input. 
+It takes output from the Gchybrid Monte Carlo simulation package as the input. 
 
 ### Output
 The output is phase coexistance and interfacial properties such as contact angle, interfacial tension.
